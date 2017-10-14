@@ -8,13 +8,21 @@ page-home {
 }
 
 .logo{
-  
-    top:80%;
-    width: 274px;
-    height: 111px;
    
-
+ width: 274px;
+ height: 111px;
+ position: absolute;
+top:39%;
+ left: 0; 
+ right: 0; 
+ margin: auto;
     
+}
+
+.form_login{
+
+    top:60%;
+    position: relative;
 }
 
 .input_login{
@@ -24,6 +32,23 @@ opacity: 0.8;
 border-radius: 32px;
 }
 
+.botao_entrar{
+
+    top:55%;
+    position: relative;
+}
+
+.botao_entrar{
+
+    top:55%;
+    position: relative;
+}
+
+.cadastro{
+    top:55%;
+    position: relative;
+
+}
 
 
 
