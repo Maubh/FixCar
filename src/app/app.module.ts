@@ -14,7 +14,10 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)//MyApp é o componente de inicio da app (root component da app)
+    IonicModule.forRoot(MyApp, {
+      mode:'md'
+
+    })//MyApp é o componente de inicio da app (root component da app)
   ],
   bootstrap: [IonicApp],
   entryComponents: [//somente paginas

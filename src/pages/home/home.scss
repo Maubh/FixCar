@@ -1,9 +1,26 @@
 page-home {
-    ion-content {
-                background-image: url('../assets/img/background.jpg');
-                -webkit-background-image: url('../assets/img/background.jpg');
+    ion-content{
+                background-image: url('../assets/img/background.png');
+                -webkit-background-image: url('../assets/img/background.png');
               background-size: cover;
+             
+             
 }
+
+.logo{
+  
+    top:80%;
+    
+}
+
+.input_login{
+background-color: #6E7072;
+border-color: #95989A;
+opacity: 0.8;
+border-radius: 32px;
+}
+
+
 
 
 }
