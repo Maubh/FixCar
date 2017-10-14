@@ -8,17 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 @NgModule({
-  declarations: [
+  declarations: [//paginas, componentes, pipes, diretivas
     MyApp,
     HomePage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp)//MyApp é o componente de inicio da app (root component da app)
   ],
   bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
+  entryComponents: [//somente paginas
+    MyApp,//componente raiz. Nao é uma pagina
     HomePage
   ],
   providers: [
