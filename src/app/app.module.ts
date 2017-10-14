@@ -15,7 +15,9 @@ import { HomePage } from '../pages/home/home';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp, {
-      mode:'md'
+      mode:'md',
+        scrollAssist: false,
+      autoFocusAssist: false
 
     })//MyApp é o componente de inicio da app (root component da app)
   ],
