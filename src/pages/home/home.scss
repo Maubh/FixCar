@@ -1,5 +1,5 @@
 page-home {
-    ion-content{
+    .background{
                 background-image: url('../assets/img/background.png');
                 -webkit-background-image: url('../assets/img/background.png');
               background-size: cover;
@@ -7,51 +7,67 @@ page-home {
              
 }
 
+
+
+
+
+
+
 .logo{
    
  width: 274px;
  height: 111px;
  position: absolute;
-top:36%;
+top:30%;
  left: 0; 
  right: 0; 
  margin: auto;
+  margin-bottom: 44px;
     
+}
+
+.item{
+    margin-bottom: 15px;
+   
+
 }
 
 .form_login{
 
-    top:55%;
+    top:52%;
     position: relative;
-    
-    
+
 }
 
 .input_login{
 background-color: #6E7072;
 
 
-border-radius: 32px;
+
 }
 
 .forgot_password{
 
-    top:45%;
+    top:41%;
     position: relative;
+    margin-top: 15px;
+
 }
 
 
 .botao_entrar{
 
-    top:40%;
+    top:36%;
     position: relative;
+   
 }
 
 
 
 .cadastro{
-    top:40%;
+    top:35%;
     position: relative;
+    margin-bottom: 28px;
 
 }
 
