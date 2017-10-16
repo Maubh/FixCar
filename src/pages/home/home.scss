@@ -1,3 +1,76 @@
 page-home {
+    .background{
+                background-image: url('../assets/img/background.png');
+                -webkit-background-image: url('../assets/img/background.png');
+              background-size: cover;
+             
+             
+}
+
+
+
+
+
+
+
+.logo{
+   
+ width: 274px;
+ height: 111px;
+ position: absolute;
+top:30%;
+ left: 0; 
+ right: 0; 
+ margin: auto;
+  margin-bottom: 44px;
+    
+}
+
+.item{
+    margin-bottom: 15px;
+   
+
+}
+
+.form_login{
+
+    top:52%;
+    position: relative;
+
+}
+
+.input_login{
+background-color: #6E7072;
+
+
+
+}
+
+.forgot_password{
+
+    top:41%;
+    position: relative;
+    margin-top: 15px;
+
+}
+
+
+.botao_entrar{
+
+    top:36%;
+    position: relative;
+   
+}
+
+
+
+.cadastro{
+    top:35%;
+    position: relative;
+    margin-bottom: 28px;
+
+}
+
+
 
 }
