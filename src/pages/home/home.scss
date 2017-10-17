@@ -1,18 +1,11 @@
 page-home {
     .background{
-                background-image: url('../assets/img/background.png');
+                background: url('../assets/img/background.png') no-repeat center center fixed;
                 -webkit-background-image: url('../assets/img/background.png');
-              background-size: cover;
-             
-             
+                background-size: cover;
+               
 }
-
-
-
-
-
-
-
+             
 .logo{
    
  width: 274px;
@@ -22,43 +15,43 @@ top:30%;
  left: 0; 
  right: 0; 
  margin: auto;
-  margin-bottom: 44px;
+ 
     
 }
 
 .item{
     margin-bottom: 15px;
-    opacity: 0.7;
+   
 
 }
 
-
 .form_login{
 
-    top:52%;
+    top:46%;
     position: relative;
 
 }
 
 .input_login{
-background-color: #6E7072;
-
-
-
+//background-color: #6E7072;
+background: none;
+color: #fff;
 }
+
 
 .forgot_password{
 
-    top:41%;
+    top:35%;
     position: relative;
     margin-top: 15px;
 
 }
 
 
+
 .botao_entrar{
 
-    top:36%;
+    top:32%;
     position: relative;
    
 }
@@ -66,7 +59,7 @@ background-color: #6E7072;
 
 
 .cadastro{
-    top:35%;
+    top:30%;
     position: relative;
     margin-bottom: 28px;
 
