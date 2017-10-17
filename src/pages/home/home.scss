@@ -1,11 +1,16 @@
 page-home {
     .background{
-                background: url('../assets/img/background.png') no-repeat center center fixed;
+                background: url('../assets/img/background.png');
                 -webkit-background-image: url('../assets/img/background.png');
                 background-size: cover;
-               
+                background-attachment: fixed;
+                background-position: center center;
 }
-             
+
+.scroll-content {
+    overflow-y: auto
+  }
+
 .logo{
    
  width: 274px;
