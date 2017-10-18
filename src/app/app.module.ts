@@ -10,8 +10,9 @@ import { CadastroVeiculosPage } from './../pages/cadastro-veiculos/cadastro-veic
 import { CadastroClientesPage } from './../pages/cadastro-clientes/cadastro-clientes';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { AngularFireModule } from "angularfire2";
-import { FIREBASE_CONFIG} from "./app.firebase.config";
+import { AngularFireModule } from 'angularfire2';
+import { FIREBASE_CONFIG} from './app.firebase.config';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 @NgModule({
   declarations: [//paginas, componentes, pipes, diretivas
     CadastroVeiculosPage,
@@ -22,6 +23,7 @@ import { FIREBASE_CONFIG} from "./app.firebase.config";
    imports: [
     BrowserModule,
     AngularFireModule.initializeApp(FIREBASE_CONFIG),
+    AngularFireAuthModule,
     IonicModule.forRoot(MyApp, {
         mode:'md',
         scrollAssist: false,
