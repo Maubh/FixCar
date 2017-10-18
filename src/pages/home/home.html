@@ -7,6 +7,9 @@
 </ion-header>-->
 
 
+
+-->
+
 <ion-content class="background" padding>
 
     <img src="assets/img/LogoFixCar_2.png" class="logo">
@@ -19,12 +22,12 @@
         <ion-item class="input_login">
 
             <ion-label floating>E-mail</ion-label>
-            <ion-input type="text"></ion-input>
+            <ion-input type="text" [(ngModel)]="user.email"></ion-input>
         </ion-item>
 
         <ion-item class="input_login">
             <ion-label floating>Senha</ion-label>
-            <ion-input type="password"></ion-input>
+            <ion-input type="password" [(ngModel)]="user.password"></ion-input>
         </ion-item>
 
     </ion-list>
@@ -33,11 +36,11 @@
     </div>
 
     <div class="botao_entrar" padding>
-        <button ion-button round color="primary" block (click)="onEntrar()">Entrar</button>
+        <button ion-button round color="primary" block (click)="onLogin()">Entrar</button>
     </div>
 
     <div class="cadastro">
-        <h6 style="color:white" text-center>Cadastre-se!</h6>
+        <button ion-button round color="primary" block (click)="onRegister()">Cadastre-se!</button>
     </div>
 
 </ion-content>
