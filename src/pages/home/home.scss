@@ -1,75 +1,48 @@
 page-home {
-    .background{
-                background: url('../assets/img/background.png');
-                -webkit-background-image: url('../assets/img/background.png');
-                background-size: cover;
-                background-attachment: fixed;
-                background-position: center center;
-}
-
-.scroll-content {
-    overflow-y: auto;
-  }
-
-.logo{
-   
- width: 274px;
- height: 111px;
- position: absolute;
-top:30%;
- left: 0; 
- right: 0; 
- margin: auto;
- 
-    
-}
-
-.item{
-    margin-bottom: 15px;
-   
-
-}
-
-.form_login{
-
-    top:46%;
-    position: relative;
-
-}
-
-.input_login{
-//background-color: #6E7072;
-background: none;
-color: #fff;
-}
-
-
-.forgot_password{
-
-    top:35%;
-    position: relative;
-    margin-top: 15px;
-
-}
-
-
-
-.botao_entrar{
-
-    top:32%;
-    position: relative;
-   
-}
-
-
-
-.cadastro{
-    top:30%;
-    position: relative;
-    margin-bottom: 28px;
-
-}
-
-
-
+    .background {
+        background: url('../assets/img/background.png');
+        -webkit-background-image: url('../assets/img/background.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    .scroll-content {
+        overflow-y: auto;
+    }
+    .logo {
+        width: 274px;
+        height: 111px;
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .item {
+        margin-bottom: 5px;
+    }
+    .form_login {
+        top: 30%;
+        position: relative;
+    }
+    .input_login {
+        //background-color: #6E7072;
+        background: none;
+        color: #fff;
+    }
+    .forgot_password {
+        top: 30%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .botao_entrar {
+        top: 30%;
+        position: relative;
+    }
+    .cadastro {
+        top: 27%;
+        position: relative;
+        margin-bottom: 10px;
+        color: white;
+    }
 }
