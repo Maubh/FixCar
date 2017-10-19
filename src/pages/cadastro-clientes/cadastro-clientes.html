@@ -7,23 +7,28 @@
 <ion-header>
 
     <ion-navbar>
-        <ion-title>Insira seus dados</ion-title>
+        <ion-title>Cadastre-se na FixCar</ion-title>
     </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
     <h2>Insira seus dados</h2>
-    <ion-item class="input_login">
+  
+
+    <ion-item >
         <ion-label floating>E-mail</ion-label>
         <ion-input type="text" [(ngModel)]="user.email"></ion-input>
     </ion-item>
 
-    <ion-item class="input_login">
+    <ion-item >
         <ion-label floating>Senha</ion-label>
         <ion-input type="password" [(ngModel)]="user.password"></ion-input>
     </ion-item>
+
+    
 
     <button ion-button (click)="register(user)">Registrar</button>
 </ion-content>

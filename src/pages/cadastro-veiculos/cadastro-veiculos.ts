@@ -28,7 +28,7 @@ export class CadastroVeiculosPage {
     this.afAuth.authState.subscribe(data => {
       if (data && data.email && data.uid){
       this.toast.create({
-        message: 'Bem vindo ao FixCar, ${data.email}',
+        message: 'Bem vindo ao FixCar! ' + `${data.email}`,
         duration: 3000
       }).present();
     }
