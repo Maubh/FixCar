@@ -16,15 +16,15 @@ import {AngularFireAuth} from 'angularfire2/auth';
 })
 export class CadastroVeiculosPage {
 
-  constructor(private afAuth: AngularFireAuth,
+  constructor(private afAuth: AngularFireAuth, private toast: ToastController,
     public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
+  /*ionViewDidLoad() {
     console.log('ionViewDidLoad CadastroVeiculosPage');
-  }
+}*/
 
-  /*ionViewWillLoad() {
+  ionViewWillLoad() {
     this.afAuth.authState.subscribe(data => {
       if (data && data.email && data.uid){
       this.toast.create({
@@ -39,5 +39,5 @@ export class CadastroVeiculosPage {
     })
   }
 }
-)}*/
+)}
 }
