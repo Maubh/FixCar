@@ -1,24 +1,49 @@
 
+
+
 //import { Firebase } from '@ionic-native/firebase'; **
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-import { CadastroVeiculosPage } from './../pages/cadastro-veiculos/cadastro-veiculos';
+
+import { AgendamentoPage } from './../pages/agendamento/agendamento';
+import { BuscarOficinasPage } from './../pages/buscar-oficinas/buscar-oficinas';
 import { CadastroClientesPage } from './../pages/cadastro-clientes/cadastro-clientes';
+import { CadastroVeiculosPage } from './../pages/cadastro-veiculos/cadastro-veiculos';
+import { ConcludeAgendamentoPage } from './../pages/conclude-agendamento/conclude-agendamento';
+import { ConfirmAgendamentoPage } from './../pages/confirm-agendamento/confirm-agendamento';
+import { HomePage } from './../pages/home/home';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+import { PerfilPage } from './../pages/perfil/perfil';
+import { ServicosPage } from './../pages/servicos/servicos';
+
+
+
+
+
+
+
+
 import { AngularFireModule } from 'angularfire2';
 import { FIREBASE_CONFIG} from './app.firebase.config';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AngularFireDatabaseModule } from "angularfire2/database";
+
 @NgModule({
   declarations: [//paginas, componentes, pipes, diretivas
-    CadastroVeiculosPage,
+    
     MyApp,
     HomePage,
-    CadastroClientesPage
+    CadastroClientesPage,
+    CadastroVeiculosPage,
+    AgendamentoPage,
+    BuscarOficinasPage,
+    ConcludeAgendamentoPage,
+    ConfirmAgendamentoPage,
+    PerfilPage,
+    ServicosPage
+
   ],
    imports: [
     BrowserModule,
@@ -33,10 +58,16 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
   ],
   bootstrap: [IonicApp],
   entryComponents: [//somente paginas
-    CadastroVeiculosPage,
-    MyApp,//componente raiz. Nao é uma pagina
+    MyApp,
     HomePage,
-    CadastroClientesPage
+    CadastroClientesPage,
+    CadastroVeiculosPage,
+    AgendamentoPage,
+    BuscarOficinasPage,
+    ConcludeAgendamentoPage,
+    ConfirmAgendamentoPage,
+    PerfilPage,
+    ServicosPage
   ],
   providers: [
     StatusBar,
