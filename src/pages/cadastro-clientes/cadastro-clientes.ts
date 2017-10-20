@@ -17,11 +17,12 @@ import { HomePage } from '../home/home';
 })
 export class CadastroClientesPage {
 
-
+  pushPage: any;
   user = {} as User;
 
   constructor(private afAuth: AngularFireAuth,
     public navCtrl: NavController, public navParams: NavParams) {
+      this.pushPage = HomePage;
   }
 
   register(user: User){
