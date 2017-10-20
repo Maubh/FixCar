@@ -5,6 +5,7 @@ page-home {
         background-size: cover;
         background-attachment: fixed;
         background-position: center center;
+        
     }
     .scroll-content {
         overflow-y: auto;
@@ -19,16 +20,18 @@ page-home {
         margin: auto;
     }
     .item {
-        margin-bottom: -5px;
+        margin-bottom: -10px;
     }
-    .form_login {
-        top:250px;
-        position: relative;
-    }
+
+
+   
+    
     .input_login {
         //background-color: #6E7072;
         background: none;
         color: #fff;
+        top:245px;
+        position: relative;
     }
     .forgot_password {
         top: 220px;
