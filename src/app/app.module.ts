@@ -26,8 +26,6 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
     AngularFireAuthModule,
     IonicModule.forRoot(MyApp, {
         mode:'md',
-        scrollAssist: false,
-      autoFocusAssist: false
     }
   )
    

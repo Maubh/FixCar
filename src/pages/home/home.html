@@ -17,16 +17,16 @@
 
 
 
-    <ion-list class="form_login" padding>
+    <ion-list class="form_login" >
 
-        <ion-item class="input_login">
+        <ion-item class="input_login" >
 
-            <ion-label floating>E-mail</ion-label>
+            <ion-label floating >E-mail</ion-label>
             <ion-input type="text" [(ngModel)]="user.email"></ion-input>
         </ion-item>
 
         <ion-item class="input_login">
-            <ion-label floating>Senha</ion-label>
+            <ion-label floating >Senha</ion-label>
             <ion-input type="password" [(ngModel)]="user.password"></ion-input>
         </ion-item>
 
@@ -34,13 +34,23 @@
     <div class="forgot_password" padding>
         <p style="color:white" text-left>Esqueceu sua senha?</p>
     </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-6>
+                <div class="botao_entrar" >
+                    <button ion-button  color="primary" block (click)="onLogin(user)">Entrar</button>
+                </div>
+            </ion-col>
+            <ion-col col-6>
+                <div class="cadastro" >
+                    <button ion-button  color="light"  block  (click)="onRegister()">Cadastrar</button>
 
-    <div class="botao_entrar" padding>
-        <button ion-button round color="primary" block (click)="onLogin(user)">Entrar</button>
-    </div>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 
-    <div class="cadastro">
-        <button ion-button round color="primary" block (click)="onRegister()">Cadastre-se!</button>
-    </div>
+
+
 
 </ion-content>
