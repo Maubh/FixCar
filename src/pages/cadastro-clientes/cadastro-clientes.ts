@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { User } from '../../models/user';
 import { AngularFireAuth} from 'angularfire2/auth';
 import { HomePage } from '../home/home';
+import { CadastroVeiculosPage } from './../cadastro-veiculos/cadastro-veiculos';
+
 /**
  * Generated class for the CadastroClientesPage page.
  *
@@ -29,7 +31,7 @@ export class CadastroClientesPage {
     try {
     const result = this.afAuth.auth.createUserWithEmailAndPassword(user.email, user.password);
     console.log(result);
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(CadastroVeiculosPage);
   }
   catch (e) {
     console.error(e);

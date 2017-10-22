@@ -20,9 +20,13 @@ page-home {
         margin: auto;
     }
     .item {
-        margin-bottom: -10px;
+        margin-bottom: -5px;
     }
-
+    .form_login {
+        top:250px;
+        position: relative;
+    opacity: 0.7;
+    }
 
    
     
@@ -30,8 +34,6 @@ page-home {
         //background-color: #6E7072;
         background: none;
         color: #fff;
-        top:245px;
-        position: relative;
     }
     .forgot_password {
         top: 220px;

@@ -1,3 +1,4 @@
+import { TabsPage } from './../tabs/tabs';
 import { CadastroVeiculosPage } from './../cadastro-veiculos/cadastro-veiculos';
 import { CadastroClientesPage } from './../cadastro-clientes/cadastro-clientes';
 import { Component } from '@angular/core';
@@ -22,7 +23,7 @@ export class HomePage {
     const result = this.afAuth.auth.signInWithEmailAndPassword(user.email, user.password);
     console.log(result);
     if (result){
-      this.navCtrl.setRoot(CadastroVeiculosPage);
+      this.navCtrl.setRoot(TabsPage);
   }
 }
   catch(e){

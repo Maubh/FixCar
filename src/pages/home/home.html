@@ -17,19 +17,20 @@
 
 
 
-   
+    <ion-list class="form_login" >
 
-        <ion-item class="input_login" padding >
+        <ion-item class="input_login"  >
           <ion-label floating><ion-icon ios="ios-mail" name="md-mail"></ion-icon> Email</ion-label>
             <ion-input type="text" [(ngModel)]="user.email"></ion-input>
         </ion-item>
 
 
-        <ion-item class="input_login" padding>
+        <ion-item class="input_login">
           <ion-label floating><ion-icon ios="ios-mail" name="md-lock"></ion-icon> Senha</ion-label>
           <ion-input type="password" [(ngModel)]="user.password"></ion-input>
       </ion-item>
 
+    </ion-list>
     <div class="forgot_password" padding>
         <p style="color:white" text-left>Esqueceu sua senha?</p>
     </div>

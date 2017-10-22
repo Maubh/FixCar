@@ -1,3 +1,18 @@
 page-perfil {
+    .logo {
+        width: 97px;
+        height: 39px;
+        position: relative;
 
+    }
+
+    .title.title-md {
+        position: absolute;
+        left: 65%;
+        top: 0;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 70%;
+     
+    }
 }
